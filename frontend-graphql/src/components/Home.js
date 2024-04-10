@@ -169,7 +169,7 @@ class Home extends Component {
             <Logo width={440} height={280} />
           </div>
           <div className="subhed pr6-l">
-            <h1>{page.title}</h1>
+            <h1>Welcome</h1>
             <div className="dek">
               You are now running a WordPress backend with a React frontend.
             </div>

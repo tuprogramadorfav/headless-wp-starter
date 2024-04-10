@@ -15,6 +15,7 @@ import { ReactComponent as SearchIcon } from '../static/images/search.svg';
 const MENU_QUERY = gql`
   query MenuQuery {
     headerMenu {
+      id
       url
       label
       type
@@ -71,7 +72,7 @@ class Header extends Component {
               if (isInternal(menu.type)) {
                 return (
                   <Link
-                    key={menu.label}
+                    key={menu.id}
                     to={menu.url}
                     className="ml1 no-underline black"
                   >
@@ -81,7 +82,7 @@ class Header extends Component {
               }
               return (
                 <a
-                  key={menu.label}
+                  key={menu.id}
                   href={menu.url}
                   className="ml1 no-underline black"
                 >
