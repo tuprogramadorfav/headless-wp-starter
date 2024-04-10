@@ -171,18 +171,10 @@ class Home extends Component {
           <div className="subhed pr6-l">
             <h1>Welcome</h1>
             <div className="dek">
-              You are now running a WordPress backend with a React frontend.
+              You are now running a the TechManager Backend with a React frontend.
             </div>
             <div className="api-info b mt4">
-              Starter Kit supports both REST API and GraphQL
-              <div className="api-toggle">
-                <a className="rest" href="http://localhost:3000">
-                  REST API
-                </a>
-                <a className="graphql" href="http://localhost:3001">
-                  GraphQL
-                </a>
-              </div>
+              This frontend installation supports the WPGraphQL API.
             </div>
           </div>
         </div>
